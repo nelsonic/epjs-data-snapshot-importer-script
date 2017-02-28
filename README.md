@@ -106,6 +106,60 @@ instructs to use a Virtual Machine to download a trial of Microsoft SQL Server
 ... so not a "_quick_" solution...
 
 
+#### Step 4.2: Download VirtualBox
+
+visit: http://download.virtualbox.org/virtualbox
+and scroll till you _find_ the **_latest_ version**.<br />
+In my case it was version **5.1.14**:
+http://download.virtualbox.org/virtualbox/5.1.14 <br />
+
+![download virtualbox vm dmg](https://cloud.githubusercontent.com/assets/194400/23405296/73b0d2b2-fdb1-11e6-8041-3771003bd235.png)
+
+Get which ever package is relevant to your PC/Mac.
+
+#### Step 4.3: Install & Open  VirtualBox
+
+Install it on your local machine: <br />
+![install VirtualBox](https://cloud.githubusercontent.com/assets/194400/23406297/1f7df116-fdb6-11e6-8cd0-50b529dfe909.png)
+
+Open the app: <br />
+![open Virtualbox](https://cloud.githubusercontent.com/assets/194400/23406481/04d85fbc-fdb7-11e6-9004-b418495fb135.png)
+
+#### Step 4.4: Select an Guest OS to run in Virtualbox
+
+Once you've downloaded VirtualBox you will need a "Guest Operating System"
+to run in your "Virtual Machine" (VM).
+
+This decision was dictated by the _availability_
+of ***Download*** version of Microsoft SQL Server for the OS ...<br />
+Checked https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+Turns out that despite the _recent announcement_
+of Microsoft SQL Server for Linux: <br />
+https://www.theregister.co.uk/2016/03/11/sql_server_linux_2017/ <br />
+it's not a "_full feautured_" version on Linux ... so it's a "no go".
+
+#### Step 4.4.1: Download a Windows 10 VirtualBox "Image"
+
+Thankfully (_or perhaps drepressingly, depending on your feelings
+towards debugging web apps on **Internet Explorer**!_) <br />
+we _know_ that we can download "Free" VirtualBox VMs with Windows and IE:
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+
+![download windows VM](https://cloud.githubusercontent.com/assets/194400/23407713/3174de3c-fdbd-11e6-8dd9-10111f60d7af.png)
+> ***4.9 Gigabytes*** for an **OS** with a Web Browser ...!!! <br />
+> _**i.e:** totally **prohibitive** for anyone
+who **doesn't have** a **broadband internet connection**_!
+
+#### Step 4.5: Create a New VirtualBox VM
+
+![name it something obvious](https://cloud.githubusercontent.com/assets/194400/23409993/8a4046d4-fdc5-11e6-8d75-dfba4f350d39.png)
+
+Assign a _generous_ amount of RAM (_this is windows after all_...)
+
+![image](https://cloud.githubusercontent.com/assets/194400/23410414/191d3898-fdc7-11e6-87a4-333f5e826d0d.png)
+
+
 
 ## Implementation Detail Questions
 
