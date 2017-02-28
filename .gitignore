@@ -35,3 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+.DS_Store
+DB_DUMP.zip
+CareNotesTRNG2016_20161021.BAK
